@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    h1 Butter Knifes
+    a.btn.btn-primary(href="/admin/foods/add") Add a new food item.
+    table.table.table-striped
+        thead
+            tr
+                th Name
+                th Id
+        tbody
+            each food in foods
+                tr
+                    td(style="width: 50px"): a(href="/admin/foods/delete/#{food.id}")
+                        span.glyphicon.glyphicon-remove
+                    td= food.id
+                    td= food.name
+                    td= food.description
+                    td(style="width: 50px"): a(href="/admin/foods/edit/#{food.id}")
+                        span.glyphicon.glyphicon-pencil
+
+

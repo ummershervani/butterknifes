@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    h1 Add Food to Butter Knifes
+
+    form(method="post")
+        fieldset.form-group
+            label(for="id") ID:
+            input.form-control(name="id", type="text", placeholder="Enter the ID")
+            small.text-muted A unique identifier for the food.
+            br
+            br
+            label(for="name") Food Item:
+            input.form-control(name="name", type="text", placeholder="Enter the food name")
+            small.text-muted What do you call the food ? Try to give a name which users can easily understand.
+            br
+            br
+            label(for="description") Description:
+            input.form-control(name="description", type="text", placeholder="Enter description for the food")
+            small.text-muted Try to provide a brief description.
+         button.btn.btn-primary(type="submit") Add new food item
+         a.btn.btn-default(href="/admin/foods") Cancel
+
+
+

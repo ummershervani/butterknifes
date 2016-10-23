@@ -1,0 +1,22 @@
+[
+ {
+  "name": "Biriyani",
+  "id": "1",
+  "description": "Biryani, also known as biriyani or biriani, is an Indian mixed rice dish with its origins among the Muslims of the Indian subcontinent. It is popular throughout the subcontinent and among the diaspora from the region."
+ },
+ {
+  "name": "Porotta",
+  "id": "2",
+  "description": "A parotta, porotta or barotta is a layered flatbread made from maida flour, from the culinary tradition of Southern India, especially in Tamil Nadu and Kerala."
+ },
+ {
+  "name": "Chicken Fry",
+  "id": "3",
+  "description": "Fried chicken is a dish consisting of chicken pieces usually from broiler chickens which have been floured or battered and then pan-fried, deep fried, or pressure fried"
+ },
+ {
+  "name": "Beef Stew",
+  "id": "4",
+  "description": "A stew is a combination of solid food ingredients that have been cooked in liquid and served in ... Poultry, sausages, and seafood are also used. While water can be used as the stew-cooking liquid, wine, stock, and beer are also common."
+ }
+]
