@@ -18,6 +18,9 @@ html(lang='en')
               a(href='/admin/foods') What you will love
             li
               a(href='/admin/users') Party Planning
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='/logout') Logout #{user.name}
     .container
       .main-content
         block content
